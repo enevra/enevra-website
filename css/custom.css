@@ -51,7 +51,7 @@
       rgba(241, 104, 104, 0)
     ),
     url("../images/backgrounds/background-why.png") no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /* background-position: 0px -120px; */
   border-top: 5px solid black;
   border-bottom: 5px solid black;
