@@ -100,8 +100,10 @@
   line-height: 2rem;
 }
 
-.glow {
-  box-shadow: 0 0px 12px rgb(255, 252, 90);
+@media (min-width: 576px) {
+  .glow {
+    box-shadow: 0 0px 12px rgb(255, 252, 90);
+  }
 }
 
 #features {

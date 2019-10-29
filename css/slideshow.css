@@ -2,8 +2,51 @@
   margin: 1em auto;
   display: inline-block;
   width: 365px;
-  height: 685.203px;
+  height: 687.312px;
   border-radius: 30px;
+}
+
+@media (max-width: 575px) {
+  #stage {
+    width: 80% !important;
+    height: 90vh;
+    margin: auto !important;
+  }
+  #stage a img {
+    width: 80% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  #stage {
+    width: 525px;
+    height: 988.609px;
+  }
+  #stage a img {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #stage {
+    width: 304.984px;
+    height: 570.234px;
+  }
+  #stage a img {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #stage {
+    width: 365px;
+    height: 687.312px;
+  }
+  #stage a img {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
 }
 
 #stage a {
@@ -11,7 +54,6 @@
 }
 #stage a img {
   /*padding: 10px;*/
-  margin-bottom: 30px;
   background-color: #2f2c3d;
   border: 0px solid white;
   border-radius: 30px;
@@ -19,7 +61,7 @@
 
 #stage a:nth-of-type(1) {
   animation-name: fader;
-  animation-delay: 3s;
+  animation-delay: 20s;
   animation-duration: 1s;
   animation-fill-mode: both;
   z-index: 20;
