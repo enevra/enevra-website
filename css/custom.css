@@ -112,3 +112,7 @@
 .center-text {
   text-align: center;
 }
+
+#features {
+  padding-top: 5rem;
+}
