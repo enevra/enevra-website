@@ -102,7 +102,7 @@
 
 @media (min-width: 576px) {
   .glow {
-    box-shadow: 0 0px 12px rgb(255, 252, 90);
+    box-shadow: 0 0px 12px white;
   }
 }
 
@@ -117,4 +117,7 @@
 
 #features {
   padding-top: 5rem;
+}
+.card-icon {
+  background-color: hsla(0, 68%, 37%, 1) !important;
 }
