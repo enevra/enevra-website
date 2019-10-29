@@ -1,31 +1,114 @@
 .mainimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  font: 800 1rem/1.5rem "Open Sans", sans-serif !important;
 }
 
 .bordered-text {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .subtitle {
-    font: 800 1rem/1.5rem "Open Sans", sans-serif;
-    /* background-color: rgba(0, 0, 0, 0.3);*/
-    border-radius: 10px;
+  font: 800 1rem/1.5rem "Open Sans", sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.3);*/
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 
 .header {
-    background: linear-gradient(
-        to bottom right,
-        rgba(72, 72, 212, 0),
-        rgba(241, 104, 104, 0)
-      ),
-      url("../images/backgrounds/growth-hand-little-1072824.jpg") center center no-repeat;
-    background-size: cover;
-    /* background-position: 0px -120px; */
-    height: 100vh;
-  }
+  background: linear-gradient(
+      to bottom right,
+      rgba(72, 72, 212, 0),
+      rgba(241, 104, 104, 0)
+    ),
+    url("../images/backgrounds/growth-hand-little-1072824.jpg") center center
+      no-repeat;
+  background-size: cover;
+  /* background-position: 0px -120px; */
+  height: 100vh;
+}
 
-  .header-content {
-      padding-top: 5rem !important;
-  }
+.header-content {
+  padding-top: 5rem !important;
+}
+
+.navbar-custom .nav-item .nav-link {
+  color: black !important;
+}
+
+.navbar-custom .nav-item .nav-link:hover {
+  color: lightgrey !important;
+}
+
+.part-why {
+  background: linear-gradient(
+      to bottom right,
+      rgba(72, 72, 212, 0),
+      rgba(241, 104, 104, 0)
+    ),
+    url("../images/backgrounds/background-why.png") no-repeat;
+  background-size: 100%;
+  /* background-position: 0px -120px; */
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.black-font {
+  color: black;
+}
+
+.grey-background {
+  background-color: #e6e5e3;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.tight {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+}
+
+.p-heading.p-larger {
+  margin-bottom: 1.5rem;
+}
+
+.counter {
+  padding-top: 12.5rem;
+  padding-bottom: 12.5rem;
+  text-align: center;
+}
+
+.binv > b {
+  color: #a01f1f;
+}
+
+.p-larger {
+  /* background-color: rgba(0, 0, 0, 0.3);*/
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.glow {
+  box-shadow: 0 0px 12px rgb(255, 252, 90);
+}
+
+#features {
+  background-color: #2f2c3d;
+  padding-top: 2rem;
+}
+
+.center-text {
+  text-align: center;
+}

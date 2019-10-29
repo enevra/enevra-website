@@ -1,0 +1,41 @@
+#stage {
+  margin: 1em auto;
+  display: inline-block;
+  width: 365px;
+  height: 685.203px;
+  border-radius: 30px;
+}
+
+#stage a {
+  position: absolute;
+}
+#stage a img {
+  /*padding: 10px;*/
+  margin-bottom: 30px;
+  background-color: #2f2c3d;
+  border: 0px solid white;
+  border-radius: 30px;
+}
+
+#stage a:nth-of-type(1) {
+  animation-name: fader;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  z-index: 20;
+}
+#stage a:nth-of-type(2) {
+  z-index: 10;
+}
+#stage a:nth-of-type(n + 3) {
+  display: none;
+}
+
+@keyframes fader {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
