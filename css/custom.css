@@ -94,6 +94,10 @@
   color: #a01f1f;
 }
 
+.mark-it {
+  color: grey;
+}
+
 .p-larger {
   /* background-color: rgba(0, 0, 0, 0.3);*/
   font-size: 1.2rem;
@@ -120,4 +124,8 @@
 }
 .card-icon {
   background-color: hsla(0, 68%, 37%, 1) !important;
+}
+
+.catchphrase {
+  
 }
