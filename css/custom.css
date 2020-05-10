@@ -8,8 +8,9 @@
   font: 800 1rem/1.5rem "Open Sans", sans-serif !important;
 }
 
-.bordered-text {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.topTitleCard{
+    background-color: rgba(185, 198, 215, 0.5);
+  padding: 3%;
 }
 
 .subtitle {
@@ -59,16 +60,16 @@
     url("../images/backgrounds/background-why.png") no-repeat;
   background-size: cover;
   /* background-position: 0px -120px; */
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 8px solid #003B71;
+  border-bottom: 8px solid #003B71;
 }
 
-.black-font {
-  color: black;
+.blue-font {
+  color: #003B71;
 }
 
-.grey-background {
-  background-color: #e6e5e3;
+.blue-background {
+  background-color: #B9C6D7;
   padding-top: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -111,14 +112,15 @@
 }
 
 @media (min-width: 576px) {
-  .glow {
-    box-shadow: 0 0px 12px white;
-  }
 }
 
 #features {
-  background-color: #2f2c3d;
+  background-color: #B9C6D7;;
   padding-top: 2rem;
+}
+
+.feature-element{
+  color: black;
 }
 
 .center-text {
@@ -129,7 +131,7 @@
   padding-top: 5rem;
 }
 .card-icon {
-  background-color: hsla(0, 68%, 37%, 1) !important;
+  background-color: #fff !important;
 }
 
 .catchphrase {
