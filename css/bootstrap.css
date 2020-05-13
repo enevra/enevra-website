@@ -590,8 +590,11 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+ /* margin problems
   margin-right: -15px;
   margin-left: -15px;
+  */
+
 }
 
 .no-gutters {
@@ -4683,8 +4686,11 @@ input[type="button"].btn-block {
   .card-deck {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+   /* margin problems
     margin-right: -15px;
     margin-left: -15px;
+    */
+
   }
   .card-deck .card {
     display: -ms-flexbox;

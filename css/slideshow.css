@@ -8,9 +8,10 @@
 
 @media (max-width: 575px) {
   #stage {
-    width: 80% !important;
+    /* problems width: 80% !important;
     height: 90vh;
     margin: auto !important;
+     */
   }
   #stage a img {
     width: 80% !important;
